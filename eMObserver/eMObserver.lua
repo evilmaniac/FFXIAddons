@@ -4,16 +4,9 @@ _addon.author = 'evilmaniac (bz)'
 _addon.commands = {'eo', 'emo'}
 
 res   = require 'resources'
-slips = require 'slips'
 texts = require 'texts'
 
-require 'tables'
-require 'sets'
-require 'strings'
 require 'actions'
-require 'pack'
-require 'logger'
-
 
 local w = windower
 local p = player
